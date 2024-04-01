@@ -37,14 +37,14 @@ function createSingle(data) {
   </div>
    <div class="single__big"><img src="${data.thumbnail}" width="480" alt=""></div>
    <div class="single_text">
-    <h3>Havic HV G-92 Gamepad</h3>
+    <h3>${data.category}</h3>
     <div class="stars">
       <img src="../img/Three Star.png" alt="">
-      <p class="pp">(rating) |</p>
+      <p class="pp">(${data.rating}) |</p>
       <h5 class="pin">In Stock</h5>
     </div>
-    <h3 class="h33">$Price</h3>
-    <h6 class="des">description</h6>
+    <h3 class="h33">$${data.price}</h3>
+    <h6 class="des">${data.description}</h6>
     <hr class="hrr">
     <div class="color">
       <h4 class="pp">Colours:</h4>

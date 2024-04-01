@@ -1079,7 +1079,7 @@ hr {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .single__mini {
